@@ -16,4 +16,4 @@ find . ! -name "${temp_directory_name}" -maxdepth 1 -exec rm -rf {} \;
 
 mv "${temp_directory_name}" "${new_directory_name}"
 
-echo "All files and directoried dropped into: ${new_directory_name}"
+echo "All files and directories dropped into: ${new_directory_name}"
